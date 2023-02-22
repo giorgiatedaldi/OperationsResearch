@@ -1,0 +1,10 @@
+reset;
+option solver gurobi;
+option presolve 0;
+model minPathForMultAgents.mod;
+data minPathForMultAgents.dat;
+solve;
+display used;
+display flow;
+display out_time;
+display in_time;

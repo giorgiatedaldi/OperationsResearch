@@ -1,0 +1,19 @@
+### SET ###
+
+set VERTEX :=  1 2 3 4 5 6;
+set EDGE := (1, 2) (2, 1) (2, 5) (5, 2) (4, 5) (5, 4) (3, 4) (4, 3) (3, 6) (6, 3) (2, 4) (4, 2);
+set AGENT := 1 2 3;
+#Uncomment for a different example
+#set EDGE := (1, 2) (2, 1) (2, 5) (5, 2) (4, 5) (5, 4) (3, 6) (6, 3) (2, 4) (4, 2) (2,6) (6,2);
+
+
+
+### PARAMETERS ###
+param Source:=     
+    1 1
+    2 4
+    3 3;
+param Destination:=
+    1 4
+    2 2
+    3 2;
