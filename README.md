@@ -1,6 +1,6 @@
 # Operations Research
 ### Project Task
-Let be given an undirected graph with arcs all having travel time equal to 1. N agents move on this graph. Each agent i has a source node oi and a destination node di. Define a mathematical model to minimize the sum of the shortest paths of all agents, taking into account that the agents cannot be at the same instant in a node or along an arc. The mathematical model has to be formulated in AMPL and provided together with data of a particular instance to solve it. 
+Let be given an undirected graph with arcs all having travel time equal to 1. N agents move on this graph. Each agent i has a source node oi and a destination node di. Define a mathematical model to minimize the sum of the shortest paths of all agents, taking into account that the agents cannot be on the same node or along the same arc at the same time. The mathematical model has to be formulated in AMPL and provided together with data of a particular instance to solve it. 
 
 ### Used approach
 The approach used is based on the use of binary and integer variables. Those of the first type are used to keep track of the route taken by a certain agent (these are set to 1 for each node 'v' and each arc 'e' that the agent uses to reach its destination). 
